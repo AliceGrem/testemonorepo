@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo/theme",
+  "version": "1.0.0",
+  "description": "Monorepo theme",
+  "main": "src/index.js",
+  "private": true,
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@monorepo/eslint-config": "1.0.0",
+    "@monorepo/prettier-config": "1.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

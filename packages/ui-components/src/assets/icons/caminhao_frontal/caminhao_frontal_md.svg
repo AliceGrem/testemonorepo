@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29 21H3V24H29V21Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M7 8V11H25V5.8C25 5.36 24.64 5 24.2 5H10"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M25 12H28V6"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M6 12H4V7"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M8 24H3V27H8V24Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M29 24H24V27H29V24Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M11 21H21V16C21 15.45 20.55 15 20 15H12C11.45 15 11 15.45 11 16V21Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M16 4V11"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M25 11H7V21H25V11Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M25 21H29V17C29 16.45 28.55 16 28 16H25V21Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M3 21H7V16H4C3.45 16 3 16.45 3 17V21Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+</svg>

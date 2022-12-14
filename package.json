@@ -1,0 +1,59 @@
+{
+  "name": "@monorepo/root",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Barbara Santos <barbara.santos@icarros.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@monorepo/eslint-config": "1.0.0",
+    "@nrwl/cli": "14.1.7",
+    "@nrwl/cypress": "14.1.7",
+    "@nrwl/jest": "^14.1.9",
+    "@nrwl/js": "14.1.7",
+    "@nrwl/linter": "14.1.7",
+    "@nrwl/nx-cloud": "14.0.5",
+    "@nrwl/react": "14.1.7",
+    "@nrwl/web": "14.1.7",
+    "@nrwl/workspace": "14.1.7",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "12.1.5",
+    "@testing-library/user-event": "^14.2.0",
+    "@types/jest": "^28.1.0",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "jest-styled-components": "^7.0.8",
+    "nx": "^14.1.9",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.3",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "bootstrap": "yarn install",
+    "storybook": "nx run ui-components:storybook",
+    "app-catalogo-versoes": "nx run app-catalogo-versoes:start",
+    "app-feirao": "nx run app-feirao:develop",
+    "app-captacao-leads": "nx run app-captacao-leads:develop",
+    "app-financiamento": "nx run app-financiamento:start",
+    "app-qualificador-chamadas": "nx run app-qualificador-chamadas:start",
+    "lint": "eslint --resolve-plugins-relative-to packages/eslint-config/ -c packages/eslint-config/index.js './**/*.js' --max-warnings=0 --color",
+    "lint:fix": "eslint --resolve-plugins-relative-to packages/eslint-config/ -c packages/eslint-config/index.js './**/*.js' --fix --ext .js,.json",
+    "prettier:fix": "prettier --config packages/prettier-config/index.js --ignore-path packages/prettier-config/.prettierignore \"*/**/*.{js,json, scss, css}\" --write",
+    "rm-nm": "rimraf ./**/node_modules",
+    "deploy:app-captacao-leads": "cd apps/app-captacao-leads && yarn build && aws s3 sync ./public s3://react-apps-private/aquisicao.icarros.com.br/ --delete"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "apps/*"
+    ]
+  },
+  "resolutions": {
+    "react-refresh": "^0.12.0"
+  },
+  "packageManager": "yarn@3.2.1"
+}

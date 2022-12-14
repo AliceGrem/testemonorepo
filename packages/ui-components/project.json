@@ -1,0 +1,14 @@
+{
+  "sourceRoot": "packages/ui-components",
+  "projectType": "library",
+  "implicitDependencies": ["utils"],
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "packages/ui-components/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

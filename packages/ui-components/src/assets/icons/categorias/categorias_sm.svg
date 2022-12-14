@@ -1,0 +1,14 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.75 8H22V4"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M5 8H2V4"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M5 17H1V20H5V17Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M12 3V8.25"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M9 17H5V8H19V11"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M5 8H19V4C19 3.45 18.55 3 18 3H6C5.45 3 5 3.45 5 4V8Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M5 13H1V17H5V13Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M23 20H9V16L10 15H22L23 16V20Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M11 20V22"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M21 20V22"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M11 15H21L20 11H12L11 15Z"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M12.04 12H8V17"  stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+</svg>

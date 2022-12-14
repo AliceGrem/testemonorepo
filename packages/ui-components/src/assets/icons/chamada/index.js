@@ -1,0 +1,1 @@
+export { default as chamada_sm } from './chamada_sm.svg';

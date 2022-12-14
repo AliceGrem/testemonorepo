@@ -1,0 +1,14 @@
+{
+  "sourceRoot": "apps/app-qualificador-chamadas",
+  "projectType": "application",
+  "implicitDependencies": ["utils"],
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/app-qualificador-chamadas/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.background {
+  max-width: 1510px;
+  height: 1067px;
+  background: #f4f4f4;
+  overflow: visible;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.content {
+  display: grid;
+  gap: 22px;
+  align-items: center;
+  padding: 16px;
+}
+
+.instructions {
+  gap: 21px;
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  color: #042442;
+
+  :last-child {
+    font-weight: 300;
+  }
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #3c3c3c;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+}
+
+@media only screen and (min-width: 480px) {
+  .instructions {
+    width: 418px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .title {
+    font-size: 48.83px;
+    line-height: 59px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .content {
+    grid-template-columns: repeat(3, auto);
+    max-width: 1235px;
+    gap: 60px;
+  }
+
+  .instructions {
+    gap: 32px;
+  }
+}

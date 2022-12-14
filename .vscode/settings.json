@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "macros": {
+    "snippetWithDescription": [
+      "editor.action.clipboardCopyAction",
+      "editor.action.insertLineAfter",
+      {
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+          "snippet": "console.log('$CLIPBOARD', $CLIPBOARD)$0"
+        }
+      }
+    ]
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.configPath": "packages/prettier-config/index.js",
+  "eslint.options": {
+    "overrideConfigFile": "packages/eslint-config/index.js"
+  },
+  "prettier.prettierPath": "prettierrc.json",
+  "terminal.integrated.scrollback": 1000000
+}

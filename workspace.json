@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "projects": {
+    "app-catalogo-versoes": "apps/app-catalogo-versoes",
+    "app-captacao-leads": "apps/app-captacao-leads",
+    "app-feirao": "apps/app-feirao",
+    "app-financiamento": "apps/app-financiamento",
+    "app-qualificador-chamadas": "apps/app-qualificador-chamadas",
+    "auth": "packages/auth",
+    "theme": "packages/theme",
+    "ui-components": "packages/ui-components",
+    "utils": "packages/utils"
+  }
+}

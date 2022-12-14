@@ -1,0 +1,30 @@
+{
+  "name": "@monorepo/auth",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@react-keycloak/web": "^3.4.0",
+    "babel-runtime": "^6.26.0",
+    "keycloak-js": "https://github.com/iCarros/keycloak-js.git"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@monorepo/eslint-config": "1.0.0",
+    "@monorepo/prettier-config": "1.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

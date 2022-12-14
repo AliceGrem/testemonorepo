@@ -1,0 +1,24 @@
+.appWrapper {
+  background-Color: #3059A8;
+  justify-Content: space-between;
+  padding: 20px 5%;
+  align-Items: center;
+  display: block;
+  gap: 15px;
+  width: 100%;
+}
+
+.downloadApp {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 960px) {
+  .appWrapper {
+    display: flex;
+    .downloadApp {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}

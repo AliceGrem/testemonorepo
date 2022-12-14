@@ -1,0 +1,144 @@
+.customBox {
+  border: 2px solid #89837F;
+  border-radius: 10px;
+  &:hover {
+    border: 2px solid #106EB0;
+  }
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  padding: 0 20px;
+  .columnTitle {
+    text-align: center;
+    td:not(:first-of-type) {
+      background: #0071CE;
+      border: 1px solid #D6D0CC;
+      color: #FFF;
+      padding: 20px 8px;
+      white-space: nowrap;
+    }
+    td {
+      font-weight: 700;
+    }
+  }
+
+  .columnDescription {
+    td {
+      text-align: center;
+      font-size: 16px;
+      color: #231D19;
+      font-weight: 400;
+      padding: 12px 7px;
+      border: 1px solid #D6D0CC;
+      line-height: 1;
+      &.columnPrice {
+        font-size: 20px;
+        font-weight: 800;
+      }
+      &:first-child {
+        font-size: 14px;
+        padding: 10px 1px;
+        font-weight: 700;
+      }
+    }
+    tr:nth-child(1), tr:nth-child(3) {
+      background: #FFF;
+    }
+    tr {
+      background: #FAF7F5;
+      height: auto;
+    }
+
+    tr:last-of-type{
+      td:first-child {
+        font-weight: 400;
+      }
+      td:not(:first-of-type) {
+        font-size: 15px;
+        font-weight: 800;
+        white-space: nowrap;
+        padding: 0 2px;
+        &:before {
+          content: 'R$';
+          font-size: 12px;
+          margin-right: 2px;
+        }
+      }
+    }
+  }
+}
+
+button {
+  max-width: 345px !important;
+  margin: auto;
+}
+
+.tableBox {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-row-gap: 40px;
+  grid-area: c;
+}
+
+.wrapperSection {
+  width: 100%;
+  background-color: #dddddd3b;
+  img {
+    width: 100%;
+    padding: 0 20px;
+    height: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  table {
+    width: 90%;
+    .columnTitle {
+      td:not(:first-of-type) {
+        padding: 20px 40px;
+      }
+    }
+    .columnDescription {
+      tr:last-of-type{
+        td:first-child {
+          font-weight: 400;
+        }
+        td:not(:first-of-type) {
+          font-size: 24px;
+          font-weight: 800;
+          &:before {
+            content: 'R$';
+            font-size: 14px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .wrapperSection {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 'b c';
+
+    width: 100%;
+    .tableBox {
+      grid-template-columns: 80%;
+      justify-content: center;
+      position: relative;
+      right: 9px;
+    }
+  }
+}
+@media only screen and (min-width: 960px) {
+  .wrapperSection {
+    img {
+      height: auto;
+    }
+  }
+
+}

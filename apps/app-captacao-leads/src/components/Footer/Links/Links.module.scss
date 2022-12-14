@@ -1,0 +1,10 @@
+.listStyle {
+  padding-top: 0;
+  display: flex;
+  gap: 10px;
+  a:not(:last-of-type){
+    &:after {
+      content: '|';
+    }
+  }
+}

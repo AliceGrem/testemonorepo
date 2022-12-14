@@ -1,0 +1,4 @@
+node-modules
+.history
+build
+dist

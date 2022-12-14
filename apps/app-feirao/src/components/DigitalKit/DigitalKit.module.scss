@@ -1,0 +1,44 @@
+.container {
+  background-color: #08213f;
+  background-image: url(../../images/bg_kit_digital.png);
+  width: 100%;
+  padding: 90px 16px 90px 16px;
+}
+
+.coverTitle {
+  font-weight: 600;
+  font-size: 48.83px;
+  line-height: 59px;
+  color: #042442;
+
+  :last-child {
+    font-weight: 300;
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 58.59px;
+  color: #fcfcfc;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fcfcfc;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    padding-top: 140px;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+  .container {
+    padding-top: 280px;
+  }
+}

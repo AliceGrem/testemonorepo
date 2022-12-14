@@ -1,0 +1,149 @@
+$dark-blue: #0071ce;
+$light-blue: #90ccff;
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+  padding: 3.75rem 0;
+  background-color: #051930;
+  max-width: 1366px;
+  margin: 0;
+  position: relative;
+  top: 0;
+}
+
+.preTitle {
+  color: #90ccff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41px;
+  text-align: center;
+  color: #fff;
+}
+
+.itemsContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 55px;
+}
+
+.item {
+  border-color: #284467;
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+  width: 270px;
+  padding: 0 35px 35px;
+  position: relative;
+  display: grid;
+  gap: 20px;
+}
+
+.item::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 60px;
+  background: #284467;
+}
+
+.itemActive > div {
+  color: $light-blue;
+}
+
+.itemTitle {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.itemDescription {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.readMore {
+  font-weight: 600;
+  font-size: 12.8px;
+  line-height: 15px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.readMore svg {
+  stroke: #fff;
+  vertical-align: middle;
+}
+
+.itemActive .readMore svg {
+  stroke: #90ccff;
+}
+
+.bullet {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  position: relative;
+  top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    @extend .bullet;
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.08);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .box {
+    top: -70px;
+    padding: 60px 0 120px 0;
+  }
+
+  .mainTitle {
+    font-size: 3.4rem;
+    line-height: 4.7rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .box {
+    top: -90px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .box {
+    top: -120px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .box {
+    top: -130px;
+  }
+}

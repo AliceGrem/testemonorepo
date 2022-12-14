@@ -1,0 +1,42 @@
+{
+  "name": "@monorepo/app-qualificador-chamadas",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@craco/craco": "^6.4.3",
+    "@monorepo/assets": "1.0.0",
+    "@monorepo/auth": "1.0.0",
+    "@monorepo/theme": "1.0.0",
+    "@monorepo/ui-components": "1.0.0",
+    "@monorepo/utils": "1.0.0",
+    "babel-plugin-styled-components": "^2.0.1",
+    "react-scripts": "^5.0.1",
+    "svg-url-loader": "^7.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.17.12",
+    "@monorepo/eslint-config": "1.0.0",
+    "@monorepo/prettier-config": "1.0.0",
+    "@testing-library/jest-dom": "^5.16.4"
+  }
+}

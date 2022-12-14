@@ -1,0 +1,36 @@
+:root {
+    --regular-weight: 400;
+    --bold-weight: 700;
+}
+
+.itau-display {
+    font-family: Itau Display, sans-serif;
+}
+
+.itau-text {
+    font-family: Itau Text, sans-serif;
+}
+
+.weight-bold {
+    font-weight: var(--bold-weight);
+}
+
+.weight-regular {
+    font-weight: var(--regular-weight);
+}
+
+.line-regular {
+    line-height: 1.25rem;
+}
+
+.line-medium {
+    line-height: 1.5rem;
+}
+
+.line-large {
+    line-height: 2rem;
+}
+
+.line-xlarge {
+    line-height: 2.5rem;
+}

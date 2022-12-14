@@ -1,0 +1,14 @@
+{
+  "sourceRoot": "apps/app-financiamento",
+  "projectType": "application",
+  "implicitDependencies": ["utils"],
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/app-financiamento/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

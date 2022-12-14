@@ -1,0 +1,65 @@
+{
+  "name": "@monorepo/ui-components",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "yarn storybook",
+    "build": "webpack",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@monorepo/assets": "1.0.0",
+    "@monorepo/theme": "1.0.0",
+    "@monorepo/utils": "1.0.0",
+    "@rebass/forms": "^4.0.6",
+    "@storybook/addon-actions": "^6.4.17",
+    "@storybook/addon-essentials": "^6.4.17",
+    "@storybook/addon-links": "^6.4.17",
+    "@storybook/builder-webpack5": "^6.4.17",
+    "@storybook/manager-webpack5": "^6.4.17",
+    "@storybook/node-logger": "^6.3.12",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.4.17",
+    "@svgr/webpack": "5.5.0",
+    "babel-plugin-styled-components": "^2.0.1",
+    "baseui": "^11.1.2",
+    "file-loader": "^6.2.0",
+    "formik": "^2.2.9",
+    "generate-export-aliases": "^1.1.0",
+    "postcss": "^8.4.6",
+    "prop-types": "^15.8.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-gtm-module": "^2.0.11",
+    "react-number-format": "^4.9.1",
+    "react-router-dom": "^6.2.2",
+    "react-select": "^5.2.2",
+    "react-text-mask": "^5.4.3",
+    "rebass": "^4.0.7",
+    "styled-components": "^5.3.5",
+    "styletron-engine-atomic": "^1.4.8",
+    "styletron-react": "^6.0.2",
+    "svg-url-loader": "^7.1.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.17.12",
+    "@monorepo/eslint-config": "1.0.0",
+    "@monorepo/prettier-config": "1.0.0",
+    "@storybook/cli": "^6.3.12",
+    "@testing-library/jest-dom": "^5.16.4",
+    "webpack": "5"
+  }
+}

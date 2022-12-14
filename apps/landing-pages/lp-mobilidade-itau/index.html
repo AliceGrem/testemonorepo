@@ -1,0 +1,380 @@
+<!doctype html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>App itaú - iCarros</title>
+    <meta name="description" content="soluções iCarros para clientes itaú">
+    <meta name="author" content="iCarros">
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-XMVH');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta property="og:title" content="App itaú - iCarros">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mobilidadeitau.icarros.com.br/">
+    <meta property="og:description" content="soluções iCarros para clientes itaú">
+    <meta property="og:image" content="images/favicon.png">
+
+    <meta name="theme-color" content="#FF7C05">
+
+    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="css/text.css?v=1.0">
+    <link rel="stylesheet" href="css/colors.css?v=1.0">
+    <link rel="stylesheet" href="css/base-card.css">
+    <link rel="stylesheet" href="css/menu-button.css">
+    <link rel="stylesheet" href="css/feedback-bottomsheet.css">
+
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XMVH"
+        height="0" width="0" style="display:none;visibility:hidden">
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="header bg-primary">
+      <h1 class="itau-text line-medium weight-regular text-highlight">
+        iCarros
+      </h1>
+    </header>
+    <section class="hero-section bg-primary">
+      <div class="hero-container">
+        <h2 class="hero-title line-xlarge text-highlight itau-display weight-regular">
+          Ainda não sabe que veículo comprar?<br>
+          Encontre seu próximo carro com a gente!
+        </h2>
+        <button
+          id="botao-acessar-icarros"
+          class="hero-button line-medium text-highlight bg-primary itau-text weight-bold"
+          aria-label="acessar iCarros"
+        >
+          Acessar iCarros
+        </button>
+      </div>
+    </section>
+
+    <section class="main-section bg-secondary">
+
+      <section>
+        <h3 class="mobility-title line-medium text-darkest itau-text weight-bold">
+          Conheça aqui algumas soluções do iCarros
+        </h3>
+        <p class="mobility-subtitle line-medium text-disabled itau-text weight-regular">
+          Resolva tudo em um só lugar
+        </p>
+      </section>
+
+      <section class="foryou-section">
+        <h3 class="foryou-title line-medium text-darkest itau-text weight-bold">
+          Pra você
+        </h3>
+        <div class="foryou-cards-container">
+
+          <button
+            id="botao-comprar"
+            class="menu-button menu-button-lg bg-lightest"
+            aria-label="comprar"
+          >
+            <img class="icon" src="images/icons/vehicle-add.svg" alt="ícone comprar">
+            <p class="itau-text weight-regular line-medium text-darkest">comprar</p>
+          </button>
+
+          <button
+            id="botao-vender"
+            class="menu-button menu-button-lg bg-lightest"
+            aria-label="vender"
+          >
+            <img class="icon" src="images/icons/vehicle-finance.svg" alt="ícone vender">
+            <p class="itau-text weight-regular line-medium text-darkest">vender</p>
+          </button>
+
+        </div>
+        <button
+          id="botao-financie-seu-veiculo"
+          class="base-card bg-grayscale-100"
+          aria-label="financie o seu veículo. opções de financiamento e simulações para você"
+        >
+          <div class="base-card-container">
+            <img class="icon base-card_icon" src="images/icons/vehicle-finance.svg" alt="vehicle finance">
+            <div>
+              <p class="base-card-title itau-text weight-regular line-medium text-neutral-variant">
+                financie o seu veículo
+              </p>
+              <p class="base-card-subtitle itau-text weight-regular line-regular text-neutral-base">
+                opções de financiamento e simulações para você
+              </p>
+            </div>
+          </div>
+          <img class="icon" src="images/icons/arrow.svg" alt="arrow">
+        </button>
+      </section>
+
+      <section class="for-vehicle-section">
+        <h3 class="for-vehicle-title line-medium text-darkest itau-text weight-bold">
+          Pro seu veículo
+        </h3>
+        <button
+          id="botao-proteja-seu-veiculo"
+          class="base-card bg-grayscale-100"
+          aria-label="proteja seu veículo. conheça nossas opções para deixar seu veículo segurado"
+        >
+          <div class="base-card-container">
+            <img class="icon base-card_icon" src="images/icons/vehicle-focus.svg" alt="vehicle finance">
+            <div>
+              <p class="base-card-title itau-text weight-regular line-medium text-neutral-variant">
+                proteja seu veículo
+              </p>
+              <p class="base-card-subtitle itau-text weight-regular line-regular text-neutral-base">
+                conheça nossas opções para deixar seu veículo segurado
+              </p>
+            </div>
+          </div>
+          <img class="icon" src="images/icons/arrow.svg" alt="arrow">
+        </button>
+      </section>
+
+      <section class="come-in-section">
+        <h3 class="come-in-title line-medium text-darkest itau-text weight-bold">
+          O que vem por aí
+        </h3>
+        <ul class="come-in-carousel">
+
+          <li>
+            <button
+              id="botao-consorcio"
+              class="menu-button menu-button-sm bg-lightest"
+              aria-label="consórcio"
+            >
+              <img class="icon" src="images/icons/fake-door/consorcio.svg" alt="Icon vehicle add">
+              <p class="itau-text weight-regular line-medium text-darkest">
+                consórcio
+              </p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-cartao-transporte"
+              class="menu-button menu-button-sm bg-lightest"
+              aria-label="cartão transporte"
+            >
+              <img class="icon" src="images/icons/fake-door/cartao-transporte.svg" alt="Icon vehicle add">
+              <p class="itau-text weight-regular line-medium text-darkest">
+                cartão transporte
+              </p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-ipva"
+              class="menu-button menu-button-sm bg-lightest"
+              aria-label="pagar IPVA"
+            >
+              <img class="icon" src="images/icons/fake-door/ipva.svg" alt="Icon vehicle add">
+              <p class="itau-text weight-regular line-medium text-darkest">
+                pagar IPVA
+              </p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-carro-novo"
+              class="menu-button menu-button-sm bg-lightest"
+              aria-label="poupe para o carro novo"
+            >
+              <img class="icon" src="images/icons/fake-door/carro-novo.svg" alt="Icon vehicle add">
+              <p class="itau-text weight-regular line-medium text-darkest">
+                poupe para o carro novo
+              </p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-manutencao"
+              class="menu-button menu-button-sm bg-lightest"
+              aria-label="agendar manutenção"
+            >
+              <img class="icon" src="images/icons/fake-door/manutencao.svg" alt="Icon vehicle add">
+              <p class="itau-text weight-regular line-medium text-darkest">
+                agendar manutenção
+              </p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-credito"
+              class="menu-button menu-button-sm bg-lightest"
+              aria-label="crédito pré-aprovado"
+            >
+              <img class="icon" src="images/icons/fake-door/credito.svg" alt="Icon vehicle add">
+              <p class="itau-text weight-regular line-medium text-darkest">
+                crédito pré-aprovado
+              </p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-documentos"
+              class="menu-button menu-button-sm bg-lightest"
+              aria-label="consulta de documentos"
+            >
+              <img class="icon" src="images/icons/fake-door/documentos.svg" alt="Icon vehicle add">
+              <p class="itau-text weight-regular line-medium text-darkest">
+                consulta de documentos
+              </p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-cadastrar-veiculo"
+              class="menu-button menu-button-sm bg-lightest"
+              aria-label="cadastre seu veículo"
+            >
+              <img class="icon" src="images/icons/fake-door/cadastrar-veiculo.svg" alt="Icon vehicle add">
+              <p class="itau-text weight-regular line-medium text-darkest">
+                cadastre seu veículo
+              </p>
+            </button>
+          </li>
+        </ul>
+
+      </section>
+
+      <p id="rate-feedback-message" class="rate-feedback-message itau-display weight-regular line-medium text-neutral-900 rate-section-hide">
+        Obrigado pelo feedback!
+      </p>
+
+      <section id="rate-section" class="rate-section">
+        <h3 class="rate-title line-medium text-darkest itau-display weight-bold">
+          Avalie a experiência
+        </h3>
+        <p class="rate-subtitle line-medium text-neutral-900 itau-text weight-regular">
+          o que você achou das informações encontradas nesta página?
+        </p>
+        <ul class="rate-items-container">
+
+          <li>
+            <button
+              id="botao-ruim"
+              class="rate-item"
+              aria-label="ruim"
+              data-name="ruim"
+            >
+              <img id="image-ruim" class="rate-item-icon" src="images/icons/rate/ruim.svg" alt="ruim" >
+              <p id="label-ruim" class="rate-item-label line-regular weight-regular itau-text">ruim</p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-nao-gostei"
+              class="rate-item"
+              aria-label="não gostei"
+              data-name="nao-gostei"
+            >
+              <img id="image-nao-gostei" class="rate-item-icon" src="images/icons/rate/nao-gostei.svg" alt="não gostei" >
+              <p id="label-nao-gostei" class="rate-item-label line-regular weight-regular itau-text">não gostei</p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-neutro"
+              class="rate-item"
+              aria-label="neutro"
+              data-name="neutro"
+            >
+              <img id="image-neutro" class="rate-item-icon" src="images/icons/rate/neutro.svg" alt="neutro" >
+              <p id="label-neutro" class="rate-item-label line-regular weight-regular itau-text">neutro</p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-gostei"
+              class="rate-item"
+              aria-label="gostei"
+              data-name="gostei"
+            >
+              <img id="image-gostei" class="rate-item-icon" src="images/icons/rate/gostei.svg" alt="gostei" >
+              <p id="label-gostei" class="rate-item-label line-regular weight-regular itau-text">gostei</p>
+            </button>
+          </li>
+
+          <li>
+            <button
+              id="botao-adorei"
+              class="rate-item"
+              aria-label="adorei"
+              data-name="adorei"
+            >
+              <img id="image-adorei" class="rate-item-icon" src="images/icons/rate/adorei.svg" alt="adorei" >
+              <p id="label-adorei" class="rate-item-label line-regular weight-regular itau-text">adorei</p>
+            </button>
+          </li>
+        </ul>
+        <button
+          id="botao-enviar"
+          aria-label="enviar"
+          disabled
+          class="rate-button bg-disabled itau-text weight-bold line-medium text-disabled"
+        >
+          enviar
+        </button>
+      </section>
+    </section>
+
+    <div id="feedback-bottomsheet" class="feedback-bottomsheet hide-feedback-bottomsheet">
+      <div id="feedback-bottomsheet-container" class="feedback-bottomsheet-container bg-lightest">
+        <header id="feedback-bottomsheet-draggable-area" class="feedback-bottomsheet-draggable-area">
+          <div class="feedback-bottomsheet-top-separator bg-grayscale-075"></div>
+        </header>
+        <div class="feedback-bottomsheet-info-container">
+          <img class="feedback-bottomsheet-icon" src="images/icons/status-check.svg" alt="Status check" >
+          <h1 class="feedback-bottomsheet-title itau-display text-neutral-900 weight-regular line-large">
+            Obrigado pelo seu interesse!
+          </h1>
+          <p class="feedback-bottomsheet-text itau-text text-heading-2 weight-regular line-medium">
+            No momento essa opção ainda não está disponível. Mas é muito bom saber que você se interessa por essa solução.
+            <br><br>
+            Em breve teremos novidades por aqui.
+          </p>
+          <button
+            id="bottomsheet-voltar"
+            aria-label="voltar para iCarros"
+            class="feedback-bottomsheet-button bg-primary itau-text weight-bold line-medium text-highlight"
+          >
+            voltar para iCarros
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bottomsheet-fake-door.js"></script>
+    <script src="js/rate-component.js"></script>
+    <script src="js/params.js"></script>
+  </body>
+</html>

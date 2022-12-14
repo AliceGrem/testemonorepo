@@ -1,0 +1,1 @@
+export { default as estrela_sm } from './estrela_sm.svg';

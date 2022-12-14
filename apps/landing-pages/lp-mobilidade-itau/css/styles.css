@@ -1,0 +1,196 @@
+:root {
+    --button-border: 1px solid #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.hero-section {
+    background-image: url('../images/person.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.hero-container {
+    padding: 1.65rem 2.8rem 8.3rem 1.25rem;
+}
+
+.hero-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.hero-button {
+    border: var(--button-border);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.main-section {
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+    margin-top: -0.75rem;
+    padding: 1.5rem 1.25rem;
+}
+
+.mobility-title {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+}
+
+.mobility-subtitle {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.foryou-section {
+    margin-bottom: 2.5rem;
+}
+
+.foryou-title {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.foryou-cards-container {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.for-vehicle-section {
+    margin-bottom: 2.5rem;
+}
+
+.for-vehicle-title {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.come-in-section {
+    margin-bottom: 3.25rem;
+}
+
+.come-in-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.come-in-carousel {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    stroke-width: none;
+}
+
+.rate-section {
+    margin-bottom: 2.375rem;
+}
+
+.rate-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.rate-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.rate-feedback-message {
+    font-size: 1.25rem;
+    margin: 1.5rem 0 6rem 0;
+}
+
+.rate-section-hide {
+    display: none;
+}
+
+.rate-items-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2.25rem;
+}
+
+.rate-item-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.rate-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.rate-item-label {
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.rate-button {
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+}
+
+@font-face {
+    font-family: "Itau Display";
+    src: url("../fonts/itau-display/ItauDisplayPro_W_Rg.eot");
+}
+
+@font-face {
+    font-family: "Itau Text";
+    src: url("../fonts/itau-text/ItauTextPro_W_Rg.eot");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    text-align: left;
+}
+
+/* Reset default styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, button, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}

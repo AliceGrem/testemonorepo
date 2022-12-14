@@ -1,0 +1,33 @@
+.gridProducts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto !important;
+  align-items: baseline;
+  grid-column-gap: 16px;
+  grid-row-gap: 40px;
+}
+
+.iconStyle {
+  border: 1px solid #D6D0CC;
+  border-radius: 50%;
+  max-width: 85px;
+  padding: 20px;
+}
+
+.productBox {
+  justify-content: space-between;
+  flex-direction: column;
+  place-items: center;
+  gap: 8px;
+  max-width: 200px;
+}
+
+
+@media only screen and (min-width: 980px) {
+  .gridProducts {
+    grid-template-columns: repeat(5,1fr);
+    align-items: baseline;
+  }
+}

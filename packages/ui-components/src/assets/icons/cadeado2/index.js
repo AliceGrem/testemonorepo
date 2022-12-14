@@ -1,0 +1,1 @@
+export { default as cadeado2_sm } from './cadeado2_sm.svg';

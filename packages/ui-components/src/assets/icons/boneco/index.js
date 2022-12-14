@@ -1,0 +1,1 @@
+export { default as boneco_sm } from './boneco_sm.svg';

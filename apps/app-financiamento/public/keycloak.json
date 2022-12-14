@@ -1,0 +1,11 @@
+{
+  "realm": "icarros",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlInfDkH67WIGvV6RVTjaRTx3JEgSegHN9dP5B474bRvV/o57FPo1j5q70MzWntIc1EItWPiL6Y3+h7FzjT+aelN7Wp4fRLCNUjZv3CW0ERKB/OimunZuP6b3QBNWdaHQQeZkVT8Su+zQJ8we81sRwd8WhOrb9KpnH56uPPXOew/YaJa+M7pWolerZ4lVvPi83gIfm20RXu88QLN+ga2L8pIdH07miL/CfsAaVTnfIs17F6pbJvwcGeD8qY0fYvKaAhLP7nOAwllHQxWxndzEVpKw5//z+VzM/NDv+QUnOSy/JKOpctZVtdE9Rn3LSIUKWYjFqmGPRMMGpBLN8IbjIwIDAQAB",
+  "auth-server-url": "https://accounts.icarros.com/auth",
+  "ssl-required": "external",
+  "resource": "icarros-webapp",
+  "credentials": {
+    "secret": "fc07f737-f65f-4543-bbf9-c73eeaa6dc74"
+  },
+  "use-resource-role-mappings": true
+}
